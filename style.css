@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #3a1f1f;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    background-color: #522222;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.logo span {
+    color: #8d0000;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8d0000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #b00000;
+}
+
+.bottom-left, .bottom-right {
+    position: absolute;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.bottom-left a, .bottom-right a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-left a:hover, .bottom-right a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"], select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #8d0000;
+    outline: none;
+}
